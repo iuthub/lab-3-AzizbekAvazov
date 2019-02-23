@@ -1,31 +1,57 @@
 body {
-	background-image: url("background.gif");
+	background-image: url("background.gif"); 
 	margin-left: 10%;
 	margin-right: 10%;
 }
-#container{
-	border: 10px white solid;
-	background-color: white;
+
+* *:hover {
+	background-color: yellow;
 }
-.entry{
-	border:4px #C2E9E9 solid;
-	background-color: #E8FBFB;
+
+#container {
+	background-color: white;
+	border: 10px white solid;
+}
+
+.date {
+	border-bottom-style: dashed;
+	border-bottom-width: 2px;
+}
+
+.entry {
+	border: 4px #C2E9E9 solid;
 	padding: 5px;
+	background-color: #E8FBFB;
 	margin-top: 10px;
 }
-.date{
-	border-bottom: 2px blue dashed; 
+
+.entry img {
+	float: right;
 }
-#header{
-	text-align: right;
+
+#header {
 	background-color: #A8F0F0;
+	text-align: right;
 }
+
 #header h2 {
 	font-size: 14pt;
 }
-.entry img{
-	float: right;
+
+/* added this exercise */
+#navigation {
+	background-color: #99E0E0;
+	float: left;
+	margin-top: 10px;
+	width: 150px;
+	padding: 5px;
+	border: 5px #009097 solid;
 }
-.spacer{
-	clear: right;
+
+#allentries {
+	margin-left: 180px;
+}
+
+.spacer {
+	clear: both;
 }
